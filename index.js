@@ -10,9 +10,9 @@ function getIpAddresses() {
     let ret = [];
 
 
-    Object.keys(ifaces).forEach(function(ifname) {
+    Object.keys(ifaces).forEach(function (ifname) {
 
-        ifaces[ifname].forEach(function(iface) {
+        ifaces[ifname].forEach(function (iface) {
             if ('IPv4' !== iface.family) {
                 return;
             }
@@ -28,7 +28,7 @@ const comarques = require("./APIExemples/comarques/comarques.js");
 
 // Habilitem CORS
 // https://enable-cors.org/server_expressjs.html
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
@@ -46,87 +46,87 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 /* Rutes per a l'exemple de les províncies */
-app.get("/api/provincies", function(req, res) {
+app.get("/api/provincies", function (req, res) {
     res.send(comarques.getProvincies());
 })
 
-app.get("/api/provDelay", function(req, res) {
+app.get("/api/provDelay", function (req, res) {
     // Afig un retard deliberat i aleatori
-    setTimeout(function() {
+    setTimeout(function () {
         res.send(comarques.getProvincies());
     }, 1 + (Math.random() * 500));
 })
 
 /* Middlewares per al servidor d'eco GET i POST */
 
-app.get("/api/comarques/:provincia", function(req, res) {
+app.get("/api/comarques/:provincia", function (req, res) {
     res.send(comarques.getComarques(req.params.provincia));
 })
 
-app.get("/api/comDelay/:provincia", function(req, res) {
-    setTimeout(function() {
+app.get("/api/comDelay/:provincia", function (req, res) {
+    setTimeout(function () {
         res.send(comarques.getComarques(req.params.provincia));
     }, 1 + (Math.random() * 500));
 })
 
 /* Dades generals de la comarca */
-app.get("/api/infocomarca/:comarca", function(req, res) {
+app.get("/api/infocomarca/:comarca", function (req, res) {
     res.send(comarques.getInfoComarca(req.params.comarca));
 })
 
-app.get("/api/capitals/:comarca", function(req, res) {
+app.get("/api/capitals/:comarca", function (req, res) {
     res.send(comarques.getCapital(req.params.comarca));
 })
 
-app.get("/api/capDelay/:comarca", function(req, res) {
-    setTimeout(function() {
+app.get("/api/capDelay/:comarca", function (req, res) {
+    setTimeout(function () {
         res.send(comarques.getCapital(req.params.comarca));
     }, 1 + (Math.random() * 500));
 })
 
 /* Obtenció de la població */
-app.get("/api/poblacio/:comarca", function(req, res) {
+app.get("/api/poblacio/:comarca", function (req, res) {
     res.send(comarques.getPoblacio(req.params.comarca));
 })
 
-app.get("/api/pobDelay/:comarca", function(req, res) {
-    setTimeout(function() {
+app.get("/api/pobDelay/:comarca", function (req, res) {
+    setTimeout(function () {
         res.send(comarques.getPoblacio(req.params.comarca));
     }, 1 + (Math.random() * 500));
 })
 
 
 /* Obtenció de la imatge */
-app.get("/api/img/:comarca", function(req, res) {
+app.get("/api/img/:comarca", function (req, res) {
     res.send(comarques.getImg(req.params.comarca));
 })
 
-app.get("/api/imgDelay/:comarca", function(req, res) {
-    setTimeout(function() {
+app.get("/api/imgDelay/:comarca", function (req, res) {
+    setTimeout(function () {
         res.send(comarques.getImg(req.params.comarca));
     }, 1 + (Math.random() * 500));
 })
 
 
 /* Obtenció de la descripció */
-app.get("/api/descripcio/:comarca", function(req, res) {
+app.get("/api/descripcio/:comarca", function (req, res) {
     res.send(comarques.getDesc(req.params.comarca));
 })
 
-app.get("/api/descDelay/:comarca", function(req, res) {
-    setTimeout(function() {
+app.get("/api/descDelay/:comarca", function (req, res) {
+    setTimeout(function () {
         res.send(comarques.getDesc(req.params.comarca));
     }, 1 + (Math.random() * 500));
 })
 
 // Ruta per buscar una comarca per les lletres inicials
-app.get("/api/buscacomarca/:lletra", function(req, res) {
+app.get("/api/buscacomarca/:lletra", function (req, res) {
     res.send(comarques.buscaComarca(req.params.lletra));
 })
 
 
 // Servidor d'eco
-app.post("/api/ecoserver", function(req, res) {
+app.post("/api/ecoserver", function (req, res) {
     console.log(req.body);
     console.log("req.body");
 
@@ -134,7 +134,7 @@ app.post("/api/ecoserver", function(req, res) {
 })
 
 // Retorna la pròpia petició
-app.get("/api/get", function(req, res) {
+app.get("/api/get", function (req, res) {
     let resp = {
         args: req.args,
         headers: req.headers,
@@ -150,7 +150,7 @@ app.get("/api/get", function(req, res) {
 
 const mininstagram = require("./APIExemples/mininstagram/mininstagram.js");
 
-app.post("/api/validaInsta", function(req, res) {
+app.post("/api/validaInsta", function (req, res) {
     let user = req.body.user;
     let password = req.body.password;
 
@@ -163,12 +163,16 @@ app.post("/api/validaInsta", function(req, res) {
 
 const viatges = require("./APIExemples/viatges/viatges.js");
 
-app.post("/api/viatges", function(req, res) {
+app.post("/api/viatges", function (req, res) {
+    console.log("111111");
+    console.log(req.body);
     let user = req.body.username;
     let password = req.body.password;
-
+    console.log("2222222222");
     res.send(viatges.validaUsuari(user, password));
-    //console.log(user + " "+ password);
+    console.log("3333333333");
+    console.log(user + " " + password);
+    console.log("444444444444");
 
 })
 
