@@ -15,7 +15,7 @@ app.listen(defaultPort, () => {
 });
 
 function DefaultController(req, res) {
-    res.send('Error 404. Not Found');
+    res.status(404).send('Not found');
 }
 
 // Definició del Router

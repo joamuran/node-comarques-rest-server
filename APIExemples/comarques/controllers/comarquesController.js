@@ -11,7 +11,8 @@ export default class comarquesController {
             for (let comarca of comarques[req.params.provincia])
                 llista.push(comarca["comarca"]);
 
-        res.json(llista);
+        if (llista.length != 0) res.json(llista);
+        else res.status(404).send('Not found');
 
     }
 
@@ -30,7 +31,8 @@ export default class comarquesController {
                 };
             }
         }
-        res.json(response);
+        if (Object.keys(response).length !== 0) res.json(response);
+        else res.status(404).send('Not found');
 
     }
 
