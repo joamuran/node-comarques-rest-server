@@ -24,6 +24,7 @@ const comarquesRouter = express.Router();
 comarquesRouter.get('/provincies', comarquesController.ObtenirProvincies);
 comarquesRouter.get('/', comarquesController.ObtenirProvincies);
 comarquesRouter.get('/:provincia', comarquesController.ObtenirComarques);
+comarquesRouter.get('/comarquesAmbImatge/:provincia', comarquesController.ObtenirComarquesAmbImatge);
 comarquesRouter.get('/infoComarca/:comarca', comarquesController.ObtenirInfoComarca);
 
 

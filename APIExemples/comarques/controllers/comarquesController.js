@@ -16,6 +16,20 @@ export default class comarquesController {
 
     }
 
+
+    static ObtenirComarquesAmbImatge(req, res) {
+        let llista = [];
+        if (Object.keys(comarques).includes(req.params.provincia))
+            for (let comarca of comarques[req.params.provincia]["comarques"])
+                llista.push({ "nom": comarca["comarca"], "img": comarca["img"] });
+
+        if (llista.length != 0) res.json(llista);
+        else res.status(404).send('Not found');
+
+    }
+
+
+
     static ObtenirProvincies(req, res) {
         //        console.log(Object.keys(comarques));
         //res.json(Object.keys(comarques));
