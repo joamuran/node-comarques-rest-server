@@ -1,6 +1,8 @@
 const provincies = ["València", "Alacant", "Castelló"];
 const comarques = {
-    "València": [{
+    "València": {
+        "img": "https://upload.wikimedia.org/wikipedia/commons/8/8f/2006_-_panoramio_%2868%29.jpg",
+        comarques: [{
             comarca: "El Camp de Túria",
             capital: "Llíria",
             poblacio: "155.250",
@@ -139,9 +141,12 @@ const comarques = {
             desc: "La Vall de Cofrents-Aiora, o simplement la Vall de Cofrents, és una comarca de l'interior del País Valencià, amb capital a Aiora. Històricament ha estat coneguda com la la Vall d'Aiora o la la Serrania d'Aiora. ",
             coordenades: [39.0596612, -1.057216]
         }
-    ],
+        ]
+    },
 
-    "Alacant": [{
+    "Alacant": {
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Alicante%2C_Spain.jpg/640px-Alicante%2C_Spain.jpg",
+        "comarques": [{
             comarca: "El Comtat",
             capital: "Cocentaina",
             poblacio: "27.157",
@@ -213,8 +218,11 @@ const comarques = {
             desc: "El Baix Segura (en castellà i cooficialment La Vega Baja) és una comarca del sud del País Valencià amb capital a Oriola. És una comarca de llengua castellana excepte al municipi de Guardamar del Segura, al sud del riu, i la pedania oriolana de Barba-roja, que conserven el valencià. El castellà de la comarca però, igual que a Múrcia, hi té nombrosos préstecs del català. Això es deu al fet que esta comarca era, al segle XV, completament valencianoparlant, però ciutats com Oriola es van castellanitzar pels repoblaments des del segle XVII endavant. ",
             coordenades: [38.0856891, -0.9448805]
         }
-    ],
-    "Castelló": [{
+        ]
+    },
+    "Castelló": {
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Pe%C3%B1%C3%ADscola_-_aerial_view.jpg/640px-Pe%C3%B1%C3%ADscola_-_aerial_view.jpg",
+        "comarques": [{
             comarca: "L'Alcalatén",
             capital: "L'Alcora",
             poblacio: "16.036",
@@ -278,7 +286,8 @@ const comarques = {
             desc: "L'Alt Millars, o la Conca del Millars, és una comarca interior i muntanyosa del nord de la Comunitat Valenciana, amb capital a Cirat. Limita al nord i oest amb Aragó, a l'est amb l'Alcalatén i al sud amb la Plana Baixa i l'Alt Palància. Es tracta d'una de les dues comarques de l'interior de la província de Castelló on es parla el castellà.",
             coordenades: [40.0547973, -0.462651]
         }
-    ]
+        ]
+    }
 };
 
 export default { provincies, comarques };
