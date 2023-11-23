@@ -48,7 +48,15 @@ export default class comarquesController {
         for (let provincia in comarques) {
             for (let comarca of comarques[provincia]["comarques"]) {
                 if (req.params.comarca == comarca.comarca) {
-                    response = comarca;
+                    // Cree una còpia
+                    response = Object.assign({}, comarca);
+                    // Modifique longitud i latitud
+                    response.latitud = response.coordenades[0];
+                    response.longitud = response.coordenades[1];
+
+                    // Elimine la clau coordenades de la còpia
+                    delete response.coordenades;
+
                 };
             }
         }
