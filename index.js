@@ -1,10 +1,14 @@
 import express from 'express';
+import cors from 'cors';
 import comarquesController from './APIExemples/comarques/controllers/comarquesController.js';
 
 import bodyParser from 'body-parser';
 const { urlencoded, json } = bodyParser;
 
 const app = express();
+
+// Habilitem CORS
+app.use(cors());
 
 app.use(urlencoded({ extended: true }));
 app.use(json());
