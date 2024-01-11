@@ -1,7 +1,7 @@
 const provincies = ["València", "Alacant", "Castelló"];
 const comarques = {
     "València": {
-        "img": "https://upload.wikimedia.org/wikipedia/commons/8/8f/2006_-_panoramio_%2868%29.jpg",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/5/5d/LA_ALBUFERA_DE_VALENCIA_02.jpg",
         comarques: [{
             comarca: "El Camp de Túria",
             capital: "Llíria",
