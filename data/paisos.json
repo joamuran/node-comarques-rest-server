@@ -1,0 +1,432 @@
+{
+  "paisos_europeus": [
+    {
+      "nom": "Europa Occidental",
+      "paisos": [
+        {
+          "nom": "Alemanya",
+          "capital": "Berlín",
+          "poblacio": 84200000,
+          "descripcio": "Un país de l'Europa central amb una rica història i cultura."
+        },
+        {
+          "nom": "Andorra",
+          "capital": "Andorra la Vella",
+          "poblacio": 77000,
+          "descripcio": "Un petit país dels Pirineus amb una rica cultura i paisatges."
+        },
+        {
+          "nom": "Àustria",
+          "capital": "Viena",
+          "poblacio": 9000000,
+          "descripcio": "Un país de l'Europa central amb una rica història i cultura."
+        },
+        {
+          "nom": "Bèlgica",
+          "capital": "Brussel·les",
+          "poblacio": 11500000,
+          "descripcio": "Un país de l'Europa occidental amb una rica història i cultura."
+        },
+        {
+          "nom": "Ciutat del Vaticà",
+          "capital": "Ciutat del Vaticà",
+          "poblacio": 801,
+          "descripcio": "La seu de l'Església catòlica."
+        },
+        {
+          "nom": "Dinamarca",
+          "capital": "Copenhaguen",
+          "poblacio": 5800000,
+          "descripcio": "Un país de l'Europa del Nord amb una rica història i cultura."
+        },
+        {
+          "nom": "Espanya",
+          "capital": "Madrid",
+          "poblacio": 47300000,
+          "descripcio": "Un país de l'Europa del Sud amb una rica història i cultura."
+        },
+        {
+          "nom": "França",
+          "capital": "París",
+          "poblacio": 68000000,
+          "descripcio": "Un país de l'Europa occidental amb una rica història i cultura."
+        },
+        {
+          "nom": "Irlanda",
+          "capital": "Dublín",
+          "poblacio": 5000000,
+          "descripcio": "Un país de l'Europa occidental amb una rica història i cultura."
+        },
+        {
+          "nom": "Islàndia",
+          "capital": "Reykjavík",
+          "poblacio": 370000,
+          "descripcio": "Un país insular de l'Atlàntic Nord amb una rica història i cultura."
+        },
+        {
+          "nom": "Luxemburg",
+          "capital": "Luxemburg",
+          "poblacio": 630000,
+          "descripcio": "Un petit país de l'Europa occidental amb una rica història i cultura."
+        },
+        {
+          "nom": "Mònaco",
+          "capital": "Mònaco",
+          "poblacio": 39000,
+          "descripcio": "Un petit principat de la Costa Blava amb una rica història i cultura."
+        },
+        {
+          "nom": "Noruega",
+          "capital": "Oslo",
+          "poblacio": 5400000,
+          "descripcio": "Un país de l'Europa del Nord amb una rica història i cultura."
+        },
+        {
+          "nom": "Països Baixos",
+          "capital": "Amsterdam",
+          "poblacio": 17700000,
+          "descripcio": "Un país de l'Europa occidental amb una rica història i cultura."
+        },
+        {
+          "nom": "Portugal",
+          "capital": "Lisboa",
+          "poblacio": 10300000,
+          "descripcio": "Un país de l'Europa del Sud amb una rica història i cultura."
+        },
+        {
+          "nom": "Regne Unit",
+          "capital": "Londres",
+          "poblacio": 68000000,
+          "descripcio": "Un país de l'Europa occidental amb una rica història i cultura."
+        },
+        {
+          "nom": "Suècia",
+          "capital": "Estocolm",
+          "poblacio": 10400000,
+          "descripcio": "Un país de l'Europa del Nord amb una rica història i cultura."
+        },
+        {
+          "nom": "Suïssa",
+          "capital": "Berna",
+          "poblacio": 8700000,
+          "descripcio": "Un país de l'Europa central amb una rica història i cultura."
+        }
+      ]
+    },
+    {
+      "nom": "Europa Oriental",
+      "paisos": [
+        {
+          "nom": "Bielorússia",
+          "capital": "Minsk",
+          "poblacio": 9500000,
+          "descripcio": "Un país de l'Europa Oriental amb una rica història i cultura."
+        },
+        {
+          "nom": "Bòsnia i Hercegovina",
+          "capital": "Sarajevo",
+          "poblacio": 3300000,
+          "descripcio": "Un país dels Balcans amb una rica història i cultura."
+        },
+        {
+          "nom": "Bulgària",
+          "capital": "Sofia",
+          "poblacio": 7000000,
+          "descripcio": "Un país dels Balcans amb una rica història i cultura."
+        },
+        {
+          "nom": "Croàcia",
+          "capital": "Zagreb",
+          "poblacio": 4000000,
+          "descripcio": "Un país dels Balcans amb una rica història i cultura."
+        },
+        {
+          "nom": "Eslovàquia",
+          "capital": "Bratislava",
+          "poblacio": 5500000,
+          "descripcio": "Un país de l'Europa central amb una rica història i cultura."
+        },
+        {
+          "nom": "Eslovènia",
+          "capital": "Ljubljana",
+          "poblacio": 2100000,
+          "descripcio": "Un país de l'Europa central amb una rica història i cultura."
+        },
+        {
+          "nom": "Estònia",
+          "capital": "Tallinn",
+          "poblacio": 1300000,
+          "descripcio": "Un país dels Països Bàltics amb una rica història i cultura."
+        },
+        {
+          "nom": "Geòrgia",
+          "capital": "Tbilissi",
+          "poblacio": 3700000,
+          "descripcio": "Un país del Caucas amb una rica història i cultura."
+        },
+        {
+          "nom": "Hongria",
+          "capital": "Budapest",
+          "poblacio": 9800000,
+          "descripcio": "Un país de l'Europa central amb una rica història i cultura."
+        },
+        {
+          "nom": "Kosovo",
+          "capital": "Pristina",
+          "poblacio": 1800000,
+          "descripcio": "Un país dels Balcans amb una rica història i cultura."
+        },
+        {
+          "nom": "Letònia",
+          "capital": "Riga",
+          "poblacio": 1900000,
+          "descripcio": "Un país dels Països Bàltics amb una rica història i cultura."
+        },
+        {
+          "nom": "Lituània",
+          "capital": "Vílnius",
+          "poblacio": 2800000,
+          "descripcio": "Un país dels Països Bàltics amb una rica història i cultura."
+        },
+        {
+          "nom": "Macedònia del Nord",
+          "capital": "Skopje",
+          "poblacio": 2100000,
+          "descripcio": "Un país dels Balcans amb una rica història i cultura."
+        },
+        {
+          "nom": "Moldàvia",
+          "capital": "Chişinău",
+          "poblacio": 3500000,
+          "descripcio": "Un país de l'Europa Oriental amb una rica història i cultura."
+        },
+        {
+          "nom": "Montenegro",
+          "capital": "Podgorica",
+          "poblacio": 630000,
+          "descripcio": "Un país dels Balcans amb una rica història i cultura."
+        },
+        {
+          "nom": "Polònia",
+          "capital": "Varsòvia",
+          "poblacio": 38000000,
+          "descripcio": "Un país de l'Europa central amb una rica història i cultura."
+        },
+        {
+          "nom": "República Txeca",
+          "capital": "Praga",
+          "poblacio": 10700000,
+          "descripcio": "Un país de l'Europa central amb una rica història i cultura."
+        },
+        {
+          "nom": "Romania",
+          "capital": "Bucarest",
+          "poblacio": 19000000,
+          "descripcio": "Un país dels Balcans amb una rica història i cultura."
+        },
+        {
+          "nom": "Rússia",
+          "capital": "Moscou",
+          "poblacio": 146000000,
+          "descripcio": "Un país de l'Europa Oriental amb una rica història i cultura."
+        },
+        {
+          "nom": "Sèrbia",
+          "capital": "Belgrad",
+          "poblacio": 7000000,
+          "descripcio": "Un país dels Balcans amb una rica història i cultura."
+        },
+        {
+          "nom": "Ucraïna",
+          "capital": "Kíev",
+          "poblacio": 44000000,
+          "descripcio": "Un país de l'Europa Oriental amb una rica història i cultura."
+        }
+      ]
+    },
+    {
+      "nom": "Europa del Nord",
+      "paisos": [
+        {
+          "nom": "Dinamarca",
+          "capital": "Copenhaguen",
+          "poblacio": 5800000,
+          "descripcio": "Un país de l'Europa del Nord amb una rica història i cultura."
+        },
+        {
+          "nom": "Estònia",
+          "capital": "Tallinn",
+          "poblacio": 1300000,
+          "descripcio": "Un país dels Països Bàltics amb una rica història i cultura."
+        },
+        {
+          "nom": "Finlàndia",
+          "capital": "Hèlsinki",
+          "poblacio": 5500000,
+          "descripcio": "Un país dels Països Nòrdics amb una rica història i cultura."
+        },
+        {
+          "nom": "Islàndia",
+          "capital": "Reykjavík",
+          "poblacio": 370000,
+          "descripcio": "Un país insular de l'Atlàntic Nord amb una rica història i cultura."
+        },
+        {
+          "nom": "Illes Fèroe",
+          "capital": "Tórshavn",
+          "poblacio": 52000,
+          "descripcio": "Un territori autònom danès a l'Atlàntic Nord amb una rica història i cultura."
+        },
+        {
+          "nom": "Irlanda",
+          "capital": "Dublín",
+          "poblacio": 5000000,
+          "descripcio": "Un país de l'Europa occidental amb una rica història i cultura."
+        },
+        {
+          "nom": "Letònia",
+          "capital": "Riga",
+          "poblacio": 1900000,
+          "descripcio": "Un país dels Països Bàltics amb una rica història i cultura."
+        },
+        {
+          "nom": "Lituània",
+          "capital": "Vílnius",
+          "poblacio": 2800000,
+          "descripcio": "Un país dels Països Bàltics amb una rica història i cultura."
+        },
+        {
+          "nom": "Noruega",
+          "capital": "Oslo",
+          "poblacio": 5400000,
+          "descripcio": "Un país dels Països Nòrdics amb una rica història i cultura."
+        },
+        {
+          "nom": "Regne Unit",
+          "capital": "Londres",
+          "poblacio": 68000000,
+          "descripcio": "Un país de l'Europa occidental amb una rica història i cultura."
+        },
+        {
+          "nom": "Suècia",
+          "capital": "Estocolm",
+          "poblacio": 10400000,
+          "descripcio": "Un país dels Països Nòrdics amb una rica història i cultura."
+        }
+      ]
+    },
+    {
+      "nom": "Europa del Sud",
+      "paisos": [
+        {
+          "nom": "Albània",
+          "capital": "Tirana",
+          "poblacio": 2800000,
+          "descripcio": "Un país dels Balcans amb una rica història i cultura."
+        },
+        {
+          "nom": "Andorra",
+          "capital": "Andorra la Vella",
+          "poblacio": 77000,
+          "descripcio": "Un petit principat muntanyós situat entre els Pirineus."
+        },
+        {
+          "nom": "Bòsnia i Hercegovina",
+          "capital": "Sarajevo",
+          "poblacio": 3300000,
+          "descripcio": "Un país dels Balcans amb una rica història i cultura."
+        },
+        {
+          "nom": "Bulgària",
+          "capital": "Sofia",
+          "poblacio": 7000000,
+          "descripcio": "Un país dels Balcans amb una rica història i cultura."
+        },
+        {
+          "nom": "Xipre",
+          "capital": "Nicòsia",
+          "poblacio": 1200000,
+          "descripcio": "Una illa del Mediterrani amb una rica història i cultura."
+        },
+        {
+          "nom": "Croàcia",
+          "capital": "Zagreb",
+          "poblacio": 4000000,
+          "descripcio": "Un país dels Balcans amb una rica història i cultura."
+        },
+        {
+          "nom": "Espanya",
+          "capital": "Madrid",
+          "poblacio": 47000000,
+          "descripcio": "Un país de la península Ibèrica amb una rica història i cultura."
+        },
+        {
+          "nom": "Grècia",
+          "capital": "Atenes",
+          "poblacio": 11000000,
+          "descripcio": "Un país del sud-est d'Europa amb una rica història i cultura."
+        },
+        {
+          "nom": "Itàlia",
+          "capital": "Roma",
+          "poblacio": 60000000,
+          "descripcio": "Un país de la península Itàlica amb una rica història i cultura."
+        },
+        {
+          "nom": "Kosovo",
+          "capital": "Pristina",
+          "poblacio": 1800000,
+          "descripcio": "Un país dels Balcans amb una rica història i cultura."
+        },
+        {
+          "nom": "Malta",
+          "capital": "La Valletta",
+          "poblacio": 520000,
+          "descripcio": "Un arxipèlag del Mediterrani amb una rica història i cultura."
+        },
+        {
+          "nom": "Montenegro",
+          "capital": "Podgorica",
+          "poblacio": 630000,
+          "descripcio": "Un país dels Balcans amb una rica història i cultura."
+        },
+        {
+          "nom": "Portugal",
+          "capital": "Lisboa",
+          "poblacio": 10000000,
+          "descripcio": "Un país de la península Ibèrica amb una rica història i cultura."
+        },
+        {
+          "nom": "San Marino",
+          "capital": "Ciutat de San Marino",
+          "poblacio": 34000,
+          "descripcio": "Un petit país enclavat dins d'Itàlia amb una rica història i cultura."
+        },
+        {
+          "nom": "Sèrbia",
+          "capital": "Belgrad",
+          "poblacio": 7000000,
+          "descripcio": "Un país dels Balcans amb una rica història i cultura."
+        },
+        {
+          "nom": "Eslovènia",
+          "capital": "Ljubljana",
+          "poblacio": 2100000,
+          "descripcio": "Un país de l'Europa central amb una rica història i cultura."
+        },
+        {
+          "nom": "Turquia",
+          "capital": "Ankara",
+          "poblacio": 84000000,
+          "descripcio": "Un país transcontinental que s'estén per l'Europa oriental i l'Àsia occidental."
+        },
+        {
+          "nom": "Vaticà",
+          "capital": "Ciutat del Vaticà",
+          "poblacio": 800,
+          "descripcio": "La seu de l'Església catòlica, situada dins de Roma, Itàlia."
+        }
+      ]
+    }
+  ]
+}
